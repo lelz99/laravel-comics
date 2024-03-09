@@ -1,1 +1,16 @@
 // @import '~bootstrap/scss/bootstrap';
+
+@use 'generics';
+@use 'header';
+@use 'footer-top';
+@use 'footer-bottom';
+@use 'section-info';
+@use 'section-films';
+
+#jumbotron {
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: block;
+}
