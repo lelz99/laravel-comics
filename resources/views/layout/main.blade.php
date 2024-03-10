@@ -15,7 +15,7 @@
     <main>
         {{-- Jumbotron --}}
         <section id="jumbotron"></section>
-
+ 
         {{-- Main Content --}}
         @yield('main-content')
 

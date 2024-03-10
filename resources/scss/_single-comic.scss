@@ -1,0 +1,13 @@
+#single-comic {
+    .row {
+        display: flex;
+
+        .col-70 {
+            flex-basis: 70%;
+        }
+
+        .col-30 {
+            flex-basis: 30%;
+        }
+    }
+}
